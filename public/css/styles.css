@@ -3,7 +3,7 @@
 @import "typography.css";
 
 body {
-  background: #fafafa;
+  background: linear-gradient(to bottom right, lightseagreen, lightpink, white);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -54,4 +54,31 @@ ul {
     justify-content: space-between;
     min-height: 500px;
   }
+}
+
+.linkbutton {
+  border: 1px solid seagreen;
+  text-decoration: none;
+  padding: 5px;
+  margin: 3px;
+  color: black;
+  background-color: rgb(198, 245, 242);
+}
+
+.linkbutton:hover {
+  border: 2px solid coral;
+  background-color: lightcoral;
+  color: white;
+}
+
+.container {
+  margin-top: 20px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.prevnext {
+  margin: 20px 0;
 }
