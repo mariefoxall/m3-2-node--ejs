@@ -60,7 +60,9 @@ const q4 = (req, res) => {
 const q5 = (req, res) => {
   const popularGirlNames = ["Olivia", "Ruby", "Emily", "Grace", "Jessica"];
 
-  res.render("pages/question5");
+  res.render("pages/question5", {
+    popularGirlNames: popularGirlNames,
+  });
 };
 
 // We export the functions so that they may be 'required' or imported in other files.
