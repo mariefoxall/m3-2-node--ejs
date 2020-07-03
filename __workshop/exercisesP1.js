@@ -36,7 +36,9 @@ const q3 = (req, res) => {
     favoriteBeverage: "Duff Beer",
   };
 
-  res.render("pages/question3");
+  res.render("pages/question3", {
+    homer: homer,
+  });
 };
 
 // -----------------------------------------------
