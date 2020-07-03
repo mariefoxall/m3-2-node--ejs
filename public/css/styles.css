@@ -88,7 +88,8 @@ ul {
   align-items: center;
 }
 
-.fourohfour {
+.fourohfour,
+.bacon {
   position: absolute;
   top: 20%;
   display: flex;
@@ -104,11 +105,23 @@ ul {
   margin-bottom: 10px;
 }
 
-.dolphin {
+.bacon > p {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.dolphin,
+.flowers {
   width: 100%;
   position: relative;
 }
 
 .gohomedolphin {
   width: 100px;
+}
+
+.flowers {
+  opacity: 0.7;
 }

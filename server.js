@@ -53,6 +53,10 @@ express()
     res.render("pages/homepage");
   })
 
+  .get("/bacon", (req, res) => {
+    res.render("pages/bacon");
+  })
+
   // this is our catch all endpoint. If a user navigates to any endpoint that is not
   // defined above, they get to see our 404 page.
   .get("*", (req, res) => {
